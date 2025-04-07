@@ -4,5 +4,6 @@
 
 ## Thực hiện:
   - Dữ liệu DNA methylation được bỏ đi các feature bị thiếu hơn 20% giá trị, sau đó fill các ô bị thiếu giá trị bằng phương pháp tính mean của các sample khác.
-  - Tính điểm trên các feature dựa trên công thức từ: ![Công thức expression difference](https://github.com/TuLa-1031/Preprocessing-multi-omics/blob/main/expression%20difference.png)
+  - Tính điểm trên các feature dựa trên công thức từ:
+    ![Công thức expression difference](https://github.com/TuLa-1031/Preprocessing-multi-omics/blob/main/expression%20difference.png)
   - Từ điểm số chọn các feature có điểm số cao nhất của từng loại omic (DNA methyaltion 1000 feature, RNAseq 2000 feature).
