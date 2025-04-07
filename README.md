@@ -4,8 +4,7 @@
 
 ## Thực hiện:
   - Dữ liệu DNA methylation được bỏ đi các feature bị thiếu hơn 20% giá trị, sau đó fill các ô bị thiếu giá trị bằng phương pháp tính mean của các sample khác.
-  - Tính điểm trên các feature dựa trên công thức từ:
-
+  - Tính điểm trên các feature dựa trên công thức:
 
 
 
