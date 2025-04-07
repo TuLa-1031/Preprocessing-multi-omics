@@ -44,7 +44,7 @@ def fill_missing_data(data):
 def highest_scoring_features(data, features_num=1, threshold=0.5):
     """
     Input: data từng gene
-    Ouput: expression_difference val của từng feature: wi = (mi,1 - mi,0) / (sigmai,1 + sigmai,0)
+    Ouput: Chọn ra feature quan trọng của data dựa trên giá trị expression difference của từng feature: wi = (mi,1 - mi,0) / (sigmai,1 + sigmai,0)
     """
     identifiers = data.iloc[:, 0]
     data_val = data.iloc[:, 1:].astype(float)
